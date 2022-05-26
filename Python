@@ -9,3 +9,14 @@ while True:
         print("Please only enter name with letters")
 
 print("Hello " + name) 
+
+def age():
+   while True:
+      age = input ("Please enter you age: ")
+      if age.isnumeric():
+         break
+      else:
+         print("Please enter your name using number")
+   print("Thank you for entering your age")
+age()
+
